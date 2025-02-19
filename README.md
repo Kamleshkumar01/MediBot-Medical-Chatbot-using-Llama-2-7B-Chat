@@ -19,6 +19,7 @@ Sentence Transformers
 
 ## ⚙️ Features
 ✅ Medical Query Processing – Provides AI-driven medical responses 
+
 ✅ Pinecone-Powered Search – Uses vector embeddings for fast retrieval 
 
 ✅ Hugging Face Integration – Implements state-of-the-art NLP models 
