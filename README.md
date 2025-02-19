@@ -1,77 +1,74 @@
-## MediBot 🤖 - A Generative AI-Powered Medical Chatbot
+# MediBot 🤖 - Medical-Chatbot-using-Llama2
 
 ## 📌 Overview
 MediBot is an intelligent Generative AI-powered medical chatbot that provides users with medical guidance based on their queries. It leverages Natural Language Processing (NLP), Pinecone for vector search, and LLaMA 2 to deliver accurate and relevant responses.
 
-## 🚀 Tech Stack:
+## How to run?
+### STEPS:
 
-Generative AI (LLaMA 2)
+Clone the repository
 
-Pinecone Vector Database
+```bash
+Project repo: https://github.com/
+```
 
-Flask (Backend)
+### STEP 01- Create a conda environment after opening the repository
 
-Hugging Face Transformers
+```bash
+conda create -n mchatbot python=3.8 -y
+```
 
-LangChain for RetrievalQA
+```bash
+conda activate mchatbot
+```
 
-Sentence Transformers
-
-## ⚙️ Features
-✅ Medical Query Processing – Provides AI-driven medical responses 
-
-✅ Pinecone-Powered Search – Uses vector embeddings for fast retrieval 
-
-✅ Hugging Face Integration – Implements state-of-the-art NLP models 
-
-✅ Secure API Communication – Ensures privacy in medical conversations 
-
-✅ Web Interface – Easy-to-use chat UI
-
-
-## 🚀 Installation & Setup
-1️⃣ Clone the Repository
-
-git clone https://github.com/Kamleshkumar01/MediBot.git
-
-cd MediBot
-
-2️⃣ Set Up a Virtual Environment (Optional but Recommended)
-
-python -m venv env
-
-source env/bin/activate   # For Linux/macOS
-
-env\Scripts\activate      # For Windows
-
-
-3️⃣ Install Dependencies
-
+### STEP 02- install the requirements
+```bash
 pip install -r requirements.txt
+```
 
 
-4️⃣ Set Up Environment Variables
+### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
 
-Create a .env file in the root directory and add your API keys:
-
-PINECONE_API_KEY=your_pinecone_api_key
-
-PINECONE_ENV=your_pinecone_env
-
+```ini
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
 
 
-5️⃣ Run the Flask App
+### Download the quantize model from the link provided in model folder & keep the model in the model directory:
 
+```ini
+## Download the Llama 2 Model:
+
+llama-2-7b-chat.ggmlv3.q4_0.bin
+
+
+## From the following link:
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+```
+
+```bash
+# run the following command
+python store_index.py
+```
+
+```bash
+# Finally run the following command
 python app.py
+```
 
-🎉 Your chatbot is now running! Open http://127.0.0.1:8080 in your browser.
+Now,
+```bash
+open up localhost:
+```
 
 
-## 🛠️ Technologies Used
-🔹 Python (Flask, LangChain, Hugging Face)
+### Techstack Used:
 
-🔹 Pinecone (Vector Search for AI-driven retrieval)
+- Python
+- LangChain
+- Flask
+- Meta Llama2
+- Pinecone
 
-🔹 LLaMA 2 (Generative AI Model)
-
-🔹 HTML, CSS, JavaScript (Frontend)
