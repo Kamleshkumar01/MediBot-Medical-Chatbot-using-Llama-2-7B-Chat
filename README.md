@@ -1,1 +1,1 @@
-# HealthMate
+# MediBot: A Generative AI-Powered Medical Chatbot! 🏥
