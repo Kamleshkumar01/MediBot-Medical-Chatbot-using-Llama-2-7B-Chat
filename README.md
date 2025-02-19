@@ -69,6 +69,9 @@ python app.py
 
 # 🛠️ Technologies Used
 🔹 Python (Flask, LangChain, Hugging Face)
+
 🔹 Pinecone (Vector Search for AI-driven retrieval)
+
 🔹 LLaMA 2 (Generative AI Model)
+
 🔹 HTML, CSS, JavaScript (Frontend)
