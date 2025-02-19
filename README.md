@@ -18,13 +18,12 @@ LangChain for RetrievalQA
 Sentence Transformers
 
 ## ⚙️ Features
-✅ Medical Query Processing – Provides AI-driven medical responses
+✅ Medical Query Processing – Provides AI-driven medical responses 
+✅ Pinecone-Powered Search – Uses vector embeddings for fast retrieval 
 
-✅ Pinecone-Powered Search – Uses vector embeddings for fast retrieval
+✅ Hugging Face Integration – Implements state-of-the-art NLP models 
 
-✅ Hugging Face Integration – Implements state-of-the-art NLP models
-
-✅ Secure API Communication – Ensures privacy in medical conversations
+✅ Secure API Communication – Ensures privacy in medical conversations 
 
 ✅ Web Interface – Easy-to-use chat UI
 
@@ -67,7 +66,7 @@ python app.py
 🎉 Your chatbot is now running! Open http://127.0.0.1:8080 in your browser.
 
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 🔹 Python (Flask, LangChain, Hugging Face)
 
 🔹 Pinecone (Vector Search for AI-driven retrieval)
