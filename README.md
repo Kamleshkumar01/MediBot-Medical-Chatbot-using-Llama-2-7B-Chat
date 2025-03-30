@@ -1,7 +1,7 @@
 # MediBot 🤖 - Medical-Chatbot-using-Llama2
 
 ## 📌 Overview
-MediBot is an intelligent Generative AI-powered medical chatbot that provides users with medical guidance based on their queries. It leverages Natural Language Processing (NLP), Pinecone for vector search, and LLaMA 2 to deliver accurate and relevant responses.
+MediBot is an advanced **Generative AI-powered medical chatbot** designed to provide accurate and context-aware medical guidance. It leverages **Natural Language Processing (NLP), Pinecone for efficient vector search, and LLaMA 2** to deliver precise and relevant responses based on user queries.
 
 ## How to run?
 ### STEPS:
